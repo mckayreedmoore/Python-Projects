@@ -1,11 +1,15 @@
+from abc import ABC, abstractmethod
+
+
 #creation of a parent class
 class polygon:
-    #creation of an abstract method
-    def sides(self):
-        print('I am a polygon! I have 3 or more sides')
     #creation of a normal method
     def shapeCelebrate(self):
         print('Shapes sure are cool!')
+    #creation of an abstract method
+    @abstractmethod
+    def sides(self):
+        print('I am a polygon! I have 3 or more sides')
 #creation of a child class
 class quadrilateral(polygon):
     #modification of the parent class method to fit
