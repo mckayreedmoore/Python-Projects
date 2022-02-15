@@ -113,7 +113,7 @@ btn2 = Button(win, text='Select Final Directory', command= lambda: selectFinalDi
 btn2.grid(row=2, column=0, padx=(30,30), pady=(10,10))
 btn3 = Button(win, text='Run Operation', command= lambda: fileSearchAndMove())
 btn3.grid(row=3, column=0, padx=(30,30), pady=(40,40))
-btn4 = Button(win, text='CloseProgram', command= lambda: win.destory())
+btn4 = Button(win, text='CloseProgram')
 btn4.grid(row=3, column=3, padx=(30,30), pady=(40,40))
     
         
