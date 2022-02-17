@@ -1,0 +1,27 @@
+{% load static %}
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} {% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href= "{% static '../resources/layout.css' %}">
+</head>
+<body>
+{% block header %}
+    <ul>
+         <li><a>Home</a></li>
+         <li><a>Services</a></li>
+         <li><a>Contact</a></li>
+         <li><a>HEre is another</a></li>
+    </ul>
+{% endblock %}
+
+{% block content %}
+
+<h1>Welcome to my world {{user|title}}</h1>
+
+
+{% endblock %}
+</body>
+</html>

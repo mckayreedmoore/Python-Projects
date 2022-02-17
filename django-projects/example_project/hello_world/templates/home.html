@@ -1,0 +1,24 @@
+
+
+
+
+{% extends 'base.html' %}
+{% block title %}Homepage {% endblock %}
+
+{% block header %} {% endblock %}
+
+{% block content %}
+    {% for name in names %}
+        <ul>
+            {% if name == "Henry" %}
+                <li> Hello {{name}}</li>
+            {% else %}
+                <li> {{name}}</li>
+            {% endif %}
+        </ul>
+
+    {% endfor%}
+
+{% endblock %}
+
+
