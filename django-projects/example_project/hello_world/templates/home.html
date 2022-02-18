@@ -8,13 +8,9 @@
 {% block header %} {% endblock %}
 
 {% block content %}
-    {% for name in names %}
+    {% for profile in profiles %}
         <ul>
-            {% if name == "Henry" %}
-                <li> Hello {{name}}</li>
-            {% else %}
-                <li> {{name}}</li>
-            {% endif %}
+            <li>{{profile}}</li>
         </ul>
 
     {% endfor%}
