@@ -1,9 +1,6 @@
 # Python-Projects
 This Repository holds all my Python projects that I completed during my time at the tech academy. 
 
-<h3> Django Projects </h3>
-These folder holds most of the Django projects to learn Django. 
-
 <h3> File Transfer Assignment </h3>
 This project utilize the os model and a tkinter interface to move files around according to their last update time.
 
